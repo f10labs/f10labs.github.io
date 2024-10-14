@@ -9,7 +9,7 @@ interface ContentProps {
 const Content: React.FC<ContentProps> = ({ children, className }) => {
   return (
     <div
-      className={clsx("text-gray-300 mb-8 text-lg leading-relaxed", className)}
+      className={clsx("text-gray-700 mb-8 text-lg leading-relaxed", className)}
     >
       {children}
     </div>

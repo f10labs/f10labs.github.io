@@ -4,9 +4,9 @@ import Title from "@/components/title";
 
 export default function Home() {
   return (
-    <article className="text-gray-300">
+    <article className="text-gray-900">
       <div className="mb-12">
-        <Title className="text-4xl md:text-5xl font-bold text-white mb-6">
+        <Title className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
           Challenges in AI Safety Evaluations: Trust, Independence, and
           Scalability
         </Title>
@@ -19,12 +19,12 @@ export default function Home() {
         </Content>
       </div>
 
-      <Subtitle className="text-2xl font-semibold text-white mb-4">
+      <Subtitle className="text-2xl font-semibold text-gray-900 mb-4">
         Current State of AI Safety Evaluations
       </Subtitle>
-      <div className="bg-gray-800 border-l-4 border-blue-500 p-6 mb-8 rounded-r-lg">
+      <div className="bg-gray-100 border-l-4 border-blue-600 p-6 mb-8 rounded-r-lg">
         <Content>
-          <strong className="text-blue-400">Today:</strong> Commercial
+          <strong className="text-blue-600">Today:</strong> Commercial
           organizations like OpenAI collaborate with chosen oversight
           researchers and selectively publish in-house results. These
           organizations control collaboration, access, resources, and result
@@ -39,12 +39,12 @@ export default function Home() {
         cover expanding capabilities.
       </Content>
 
-      <h2 className="text-3xl font-semibold text-white mt-12 mb-6">
+      <h2 className="text-3xl font-semibold text-gray-900 mt-12 mb-6">
         Key Challenges
       </h2>
       <ol className="list-decimal pl-6 space-y-8">
         <li>
-          <h3 className="text-2xl font-semibold text-white mb-3">
+          <h3 className="text-2xl font-semibold text-gray-900 mb-3">
             Lack of Independence in Audits
           </h3>
           <Content>
@@ -56,10 +56,10 @@ export default function Home() {
         {/* Add other list items here */}
       </ol>
 
-      <h2 className="text-3xl font-semibold text-white mt-12 mb-6">
+      <h2 className="text-3xl font-semibold text-gray-900 mt-12 mb-6">
         Future Outlook
       </h2>
-      <div className="bg-gray-800 border-l-4 border-yellow-500 p-6 mb-8 rounded-r-lg">
+      <div className="bg-gray-100 border-l-4 border-yellow-600 p-6 mb-8 rounded-r-lg">
         <Content>
           Hard evaluations remain expensive to develop and release. Few
           overseeing parties have the authority and trust to access model

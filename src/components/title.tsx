@@ -10,7 +10,7 @@ const Title: React.FC<TitleProps> = ({ children, className }) => {
   return (
     <h1
       className={clsx(
-        "text-4xl md:text-5xl font-bold text-white mb-6",
+        "text-4xl md:text-5xl font-bold text-gray-900 mb-6",
         className
       )}
     >
