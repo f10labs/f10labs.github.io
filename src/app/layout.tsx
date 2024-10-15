@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import BackgroundGraph from "@/components/background-graph";
+import GitHubIcon from "./github-mark.svg";
+import Image from "next/image";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -50,6 +52,19 @@ export default function RootLayout({
                     className="text-gray-700 hover:text-gray-900 transition duration-150"
                   >
                     Blog
+                  </a>
+                  <a
+                    href="https://github.com/f10labs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-700 hover:text-gray-900 transition duration-150"
+                  >
+                    <Image
+                      src={GitHubIcon}
+                      alt="GitHub"
+                      width={24}
+                      height={24}
+                    />
                   </a>
                 </div>
               </nav>
