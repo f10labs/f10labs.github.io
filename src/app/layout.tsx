@@ -18,7 +18,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Foundation Labs",
+  title: "Foundations Labs",
   description: "AI Safety Evaluations: Challenges and Future Directions",
 };
 
@@ -38,7 +38,7 @@ export default function RootLayout({
             <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
               <nav className="flex justify-between items-center">
                 <div className="flex items-center">
-                  <span className="text-2xl font-bold">Foundation Labs</span>
+                  <span className="text-2xl font-bold">Foundations Labs</span>
                 </div>
                 <div className="flex items-center space-x-6">
                   <a
@@ -48,7 +48,7 @@ export default function RootLayout({
                     About Us
                   </a>
                   <a
-                    href="#"
+                    href="http://privacyml.github.io/"
                     className="text-gray-700 hover:text-gray-900 transition duration-150"
                   >
                     Blog
@@ -78,7 +78,7 @@ export default function RootLayout({
           <footer className="bg-gray-100 text-gray-600 py-8 relative z-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row justify-between items-center">
               <p className="mb-4 sm:mb-0">
-                &copy; 2024 Foundation Labs. All rights reserved.
+                &copy; 2024 Foundations Labs. All rights reserved.
               </p>
               {/* <div className="flex space-x-4">
                 <a
